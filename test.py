@@ -25,7 +25,6 @@ def parse_args():
     parser.add_argument('--image_size', type=int, default=224, help='image size')
     parser.add_argument('--patch_size', type=int, default=16, help='patch size')
     parser.add_argument('--max_length', type=int, default=32, help='max sequence length')
-    parser.add_argument('--load_path', type=str, default='pretrained_weights/m3ae.ckpt', help='load model path')
     parser.add_argument('--visual_backbone', type=str, default='ViT-B/16', help='visual backbone')
     parser.add_argument('--hidden_size', type=int, default=768, help='hidden size')
     parser.add_argument('--input_text_embed_size', type=int, default=768, help='input text embedding size')
@@ -121,8 +120,7 @@ def test_accuracy(args):
         'input_text_embed_size': args.input_text_embed_size,
         'input_image_embed_size': args.input_image_embed_size,
         'num_top_layer': args.num_top_layer,
-        'fusion_dropout': args.fusion_dropout,
-        'load_path': args.load_path,
+        'fusion_dropout': args.fusion_dropout
     }
     model = CausalVQAModel(model_config)
     model.load_state_dict(checkpoint, strict=False)
