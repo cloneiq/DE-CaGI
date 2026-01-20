@@ -19,9 +19,9 @@ def parse_args():
 
     parser.add_argument('--data_dir', type=str, default='dataset/slake', help='data directory')
     parser.add_argument('--image_dir', type=str, default='dataset/slake/imgs', help='image directory')
-    parser.add_argument('--train_json', type=str, default='dataset/slake/train_all_labeled.json', help='train data json')
-    parser.add_argument('--val_json', type=str, default='dataset/slake/validate_labeled.json', help='validate data json')
-    parser.add_argument('--test_json', type=str, default='dataset/slake/test_labeled.json', help='test data json')
+    parser.add_argument('--train_json', type=str, default='dataset/slake/train.json', help='train data json')
+    parser.add_argument('--val_json', type=str, default='dataset/slake/validate.json', help='validate data json')
+    parser.add_argument('--test_json', type=str, default='dataset/slake/test.json', help='test data json')
 
     parser.add_argument('--vocab', type=str, default='biomedbert', help='vocabulary')
     parser.add_argument('--image_size', type=int, default=224, help='image size')
@@ -102,7 +102,7 @@ def train(args, device):
     data_loader = VQADataLoader(data_config)
     loaders = data_loader.get_loaders()
     train_loader = loaders.get('train')
-    val_loader = loaders.get('test')
+    val_loader = loaders.get('val')
 
     # Get the number of answer classes
     answer_vocab = data_loader.get_answer_vocab()
