@@ -99,7 +99,7 @@ This project is licensed under the MIT License. See the [LICENSE](https://openso
 
 ## Contact
 
-**First Author**: Bing Liu, Kunming University of Science and Technology Kunming, Yunnan CHINA, email: LB_violet2023@outlook.com
+**First Author**: Bing Liu, Kunming University of Science and Technology, Kunming, Yunnan CHINA, email: LB_violet2023@outlook.com
 
-**Corresponding Author**: Lijun Liu, Ph.D., Kunming University of Science and Technology Kunming, Yunnan CHINA, email: cloneiq@kust.edu.cn
+**Corresponding Author**: Lijun Liu, Ph.D., Kunming University of Science and Technology, Kunming, Yunnan CHINA, email: cloneiq@kust.edu.cn
 
