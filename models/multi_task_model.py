@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import warnings
 
-from models.language_encoders.bert_model import BertCrossLayer
+from models.bert_model import BertCrossLayer
 from transformers import BertConfig
 from transformers import AutoModel
 import open_clip
