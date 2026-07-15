@@ -160,10 +160,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](https://op
 
 ## Contact
 
-**First Author**: Bing Liu, Kunming University of Science and Technology, Kunming, Yunnan CHINA, email: LB_violet2023@outlook.com
+Bing Liu, Kunming University of Science and Technology, Kunming, Yunnan CHINA, LB_violet2023@outlook.com
 
-**Corresponding Author**: Lijun Liu, Associate Professor (Ph.D.), Kunming University of Science and Technology, Kunming, Yunnan CHINA, email: cloneiq@kust.edu.cn
-
-<p align="center">
-  <sub>Maintained for debiased, evidence-grounded, and reliable Medical Visual Question Answering research.</sub>
-</p>
+Lijun Liu, Associate Professor (Ph.D.), Kunming University of Science and Technology, Kunming, Yunnan CHINA, cloneiq@kust.edu.cn
